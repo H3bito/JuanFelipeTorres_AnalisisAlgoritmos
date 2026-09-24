@@ -1,10 +1,37 @@
-from algoritmos import insertion_sort
+from datos import (
+    generar_aleatorio,
+    generar_casi_ordenado,
+    generar_inverso,
+)
 
 
-datos = [10, 20, 30, 40, 50]
+n = 100
 
-resultado, comparaciones = insertion_sort(datos)
+aleatorio = generar_aleatorio(n)
+casi_ordenado = generar_casi_ordenado(n)
+inverso = generar_inverso(n)
 
-print("Lista original:", datos)
-print("Lista ordenada:", resultado)
-print("Comparaciones:", comparaciones)
+print("ESCENARIO A - ALEATORIO")
+print("Primeros 20:", aleatorio[:20])
+print("Ultimos 20:", aleatorio[-20:])
+print()
+
+print("ESCENARIO B - CASI ORDENADO")
+print("Primeros 20:", casi_ordenado[:20])
+print("Ultimos 20:", casi_ordenado[-20:])
+print()
+
+print("ESCENARIO C - INVERSO")
+print("Primeros 20:", inverso[:20])
+print("Ultimos 20:", inverso[-20:])
+
+print()
+print("Tamaños:")
+print(len(aleatorio), len(casi_ordenado), len(inverso))
+
+print("Elementos distintos:")
+print(
+    len(set(aleatorio)) == n,
+    len(set(casi_ordenado)) == n,
+    len(set(inverso)) == n,
+)
