@@ -11,9 +11,9 @@
 | Calidad de la explicación teórica | 15 / 25 |
 | Corrección de la implementación | 15 / 20 |
 | Calidad del análisis de las gráficas | 13 / 20 |
-| Documentación y organización del informe | 5 / 10 |
-| **Total** | **62 / 100** |
-| **Nota (0–5)** | **3.10** |
+| Documentación y organización del informe | 6 / 10 |
+| **Total** | **63 / 100** |
+| **Nota (0–5)** | **3.15** |
 
 ## 1. Corrección conceptual (14 / 25)
 **Lo que hizo bien:**
@@ -64,7 +64,7 @@
 - El único aspecto adicional al tiempo es la energía; faltan memoria extra de merge sort, estabilidad o mantenimiento.
 - No explica cómo recomendar un solo algoritmo si el canal de entrada puede cambiar sin aviso.
 
-## 5. Documentación y organización del informe (5 / 10)
+## 5. Documentación y organización del informe (6 / 10)
 **Lo que hizo bien:**
 - Enlaza `algoritmos.py`, `datos.py`, `parte3_casos.py` y `parte4_complejidad.py` desde el informe, y las tres gráficas se ven incrustadas.
 - Hay más de cinco commits descriptivos del laboratorio.
