@@ -77,7 +77,7 @@
 - La sección del concepto técnico quedó numerada como 4.4, y la parte de merge sort y el análisis línea por línea están en un orden distinto al pedido.
 
 ## ¿El código funciona?
-Sí. Los dos algoritmos ordenan bien en todas mis pruebas, y los dos scripts corren sin errores y generan las gráficas. Los resultados que obtuve son parecidos a los de su informe.
+Sí. Los dos algoritmos ordenan bien, y los dos scripts corren sin errores y generan las gráficas. Los resultados al ejecutarlos son parecidos a los de su informe.
 
 ## Para el próximo laboratorio
 - Use la carpeta `laboratorios/` en minúscula, trabaje en la rama `main` y agregue `__pycache__/` al archivo `.gitignore`.
