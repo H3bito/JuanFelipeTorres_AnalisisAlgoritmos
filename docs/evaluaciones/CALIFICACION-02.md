@@ -57,7 +57,7 @@ Buen trabajo: el laboratorio funciona y está bien sustentado en sus mediciones;
 - El informe tiene su nombre, las partes en orden, la gráfica visible y enlaces a `subarreglo.py`, `pruebas.py` y `medicion.py`. Hay varios commits descriptivos sobre el laboratorio.
 
 **Lo que puede mejorar:**
-- No siguió exactamente la estructura de carpetas acordada: la carpeta se llama `Laboratorios/` (con mayúscula) en vez de `laboratorios/`. No descuenta, pero queda anotado.
+- No siguió exactamente la estructura de carpetas acordada: la carpeta se llama `Laboratorios/` (con mayúscula) en vez de `laboratorios/`.
 - Las instrucciones de ejecución escriben la ruta en minúscula (`laboratorios/...`) y solo muestran comandos de Windows, así que en otros sistemas no funcionarían tal cual.
 - Hay archivos `__pycache__/` publicados en el laboratorio 1; conviene agregarlos al `.gitignore`.
 
